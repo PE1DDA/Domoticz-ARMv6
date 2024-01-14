@@ -14,7 +14,11 @@ Now, here is my solution:
 
 On a freshly installed bullseye light via the Raspberry Pi Imager (nice tool to be downloaded from RPI's site).
 
-install Domoticz with: sudo bash -c "$(curl -sSfL https://install.domoticz.com)" 
+install Domoticz with:
+
+sudo bash -c "$(curl -sSfL https://install.domoticz.com)" 
+
+
 This will be the version for ARMv7, but just install it
 After installation is complete, do not reboot, but go to your installation directory "domoticz" with for example FileZilla
 Replace the file "domoticz" with the one abow on this site/page
@@ -24,7 +28,8 @@ sudo ./domoticz
 Domoticz now will run
 Go to your webinterface and login (user admin, pw domoticz)
 Go to settings -> settings -> backup/restore
-hit database restore and point to the domoticz.db from this repository, wait untill the dashboard pops up and if all went well, you
+hit database restore and point to the domoticz.db you just downloaded from this repository.
+Wait untill the dashboard pops up and if all went well, you
 should see the dashboard with some devices from Buienradar (Dutch weather site) and a Dummy.
 Ofcourse those can be deleted, but try some of your favorite apps or plugins first to see if it is fully working.
 Now you are good to go
