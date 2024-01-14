@@ -28,7 +28,7 @@ sudo ./domoticz
 Domoticz now will run
 Go to your webinterface and login (user admin, pw domoticz)
 Go to settings -> settings -> backup/restore
-hit database restore and point to the domoticz.db you just downloaded from this repository.
+hit database restore and point to the domoticz.db you just downloaded from this repository or your own saved copy.
 Wait untill the dashboard pops up and if all went well, you
 should see the dashboard with some devices from Buienradar (Dutch weather site) and a Dummy.
 Ofcourse those can be deleted, but try some of your favorite apps or plugins first to see if it is fully working.
