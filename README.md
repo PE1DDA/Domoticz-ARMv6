@@ -21,7 +21,7 @@ sudo bash -c "$(curl -sSfL https://install.domoticz.com)"
 
 This will be the version for ARMv7, but just install it
 After installation is complete, do not reboot, but go to your installation directory "domoticz" with for example FileZilla
-Replace the file "domoticz" with the one abow on this site/page
+Replace the file "domoticz" with the one above on this site/page
 Now on your RPI do:
 cd domoticz
 sudo ./domoticz
