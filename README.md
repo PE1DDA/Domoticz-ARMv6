@@ -23,8 +23,11 @@ This will be the version for ARMv7, but just install it
 After installation is complete, do not reboot, but go to your installation directory "domoticz" with for example FileZilla
 Replace the file "domoticz" with the one above on this site/page
 Now on your RPI do:
+
 cd domoticz
+
 sudo ./domoticz
+
 Domoticz now will run
 Go to your webinterface and login (user admin, pw domoticz)
 Go to settings -> settings -> backup/restore
